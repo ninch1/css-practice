@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial;
+    color: white;
+    font-weight: bold;
+}
+
+.credit-card {
+    aspect-ratio: 85.6 / 53.98;
+    background-color: black;
+    height: 300px;
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.mc-chip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.lefttop {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px;
+}
+
+.mc {
+    font-size: 18px;
+}
+
+.chip {
+    height: 50px;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.nums {
+    font-size: 30px;
+}
+
+.name-date {
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+}
+
+.name {
+    font-size: 20px;
+}
+
+.date {
+    margin-top: 10px;
+    font-size: 30px;
+}
